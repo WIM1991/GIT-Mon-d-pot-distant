@@ -1,1 +1,1 @@
-# GIT-Mon-d-pot-distant
+# GIT-Mon-depot-distant
