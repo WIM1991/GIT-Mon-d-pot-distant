@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+            <head>
+
+                    <link rel="stylesheet" href="style.css" />
+                    <title>Premiers tests du CSS</title>
+
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+            </head>
+  
+
+<body>
+
+                <!-- **********************************************image 1******************************************************************************************* -->
+                <img id= "jarditou" src="images/jarditou_logo.jpg" alt=" logo du site "> 
+                <!-- **********************************************image 1****************************************************************************************** -->
+                    
+                <!-- *************************************liens*************************************************  -->
+                <div class= "Links">
+                    <ul>
+                        <a href="Index.html">Accueil </a> 
+                        <a href="tableau.html">tableau</a>
+                        <a  href="Contact.html">Contact</a>
+                    </ul>
+                </div>
+                  <!-- *************************************liens*************************************************  -->
+                    
+                <!-- *******************************image2************************************** -->
+                <img id= "promotion" src="images/promotion.jpg" alt=" Promotion">
+                <!-- *******************************image2************************************** -->
+
+
+     <h1>Contact</h1>
+     <!-- *******************************création du formulaire************************************** -->
+            <hr>
+              <p> * Ces zones sont obligatoires</p>
+
+   
+
+    <fieldset>
+      <legend> Vos Coordonnées</legend>
+         <form action="http://bienvu.net/script.php" method="post">
+                <div> <label for="nom"> Votre nom*: </label> <input type="text" name ="nom" id= "nom" ></div> 
+                <div><label for="prénom"> Votre prénom*: </label> <input type="text" name ="prénom"  id= "prénom"></div> 
+                <div><label for="Sexe">Sexe* :</label> 
+                        <input type="radio" name="sexe" value="Féminin"  id =" Féminin"> Féminin
+                        <input type="radio" name="sexe" value="Masculin"  id =" Masculin" > Masculin</div>
+                <div><label for="date">Date de naissance:</label><input type="date" name="ddn" id="date"></div> 
+                <div><label for="code postal">Code postal* </label><input type="code postal"  name ="code postal" id ="code postal"></div> 
+                <div><label for="Adresse"> Adresse</label><input type="Adresse" name = "Adresse" id ="Adresse"></div> 
+                <div><label for="Ville"> Ville </label><input type="text" name = "Ville" id ="Ville"></div> 
+                <div><label for="email">email:</label><input type="email" name="email" id ="email" placeholder="toto@gmail.com" ></div>                                         
+       
+    </fieldset>
+   <!-- *******************************création du formulaire************************************** -->
+
+            <fieldset>
+                <legend> Votre demande</legend>
+
+                            <!-- choisir la case  -->
+                    <label for="Sujet*"> Sujet*:</label>
+                            <select>
+                                    <option> Veuillez séléctionner un sujet</option> 
+                                    <option>Vente </option>   
+                                    <option> Achat </option>   
+                            </select>
+                                <div>
+                                <label for="Votre question*"> Votre question*:</label>
+                            <!-- crée un champ vide  -->
+                                <textarea name="Veuillez séléctionner un sujet" ></textarea>
+                            </div>
+             </fieldset>
+            <div>
+                     <input type="checkbox" name="texte"> J'accepte le traitement informatique de ce formulaire
+
+            </div>
+
+            <div> 
+                     <input type="submit" value="Envoyer"> 
+                     <input type="submit" value="Annuler ">
+            </div>
+                <!-- case à cocher   -->
+     
+
+   </form>                  
+</br>
+</body>
+ 
+  <footer>
+       
+    <div class= "Links">
+        <ul>
+            <a  href ="#"> Mentions légale</a>
+            <a  href="#" > Horaires </a>
+            <a  href="#"> Plan du site </a>
+        </ul>
+</div>
+
+
+
+</footer>
+
+</html>

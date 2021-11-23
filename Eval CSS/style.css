@@ -1,0 +1,83 @@
+/* images1  */
+  
+   #jarditou {
+              width: 200px;
+              height: auto;
+              margin: 20px 0 20px 0;
+             }
+ /*images2 */
+#promotion
+         {
+          width: 1880px;
+          height: auto;
+          margin: 10px  2px ;
+         }
+
+
+         #container
+         {
+          display: flex;
+         }
+
+         /* titre des pages html  */
+
+        .Links {
+              color:white; 
+              text-align:left;
+              word-spacing: 0.9mm;
+              background-color:black;
+              padding: 25px 30px;  
+             
+            }
+
+        
+            a { color: white;
+                display:inline-block;;
+              }
+
+              li{ display:inline;}
+
+         #boite
+         {
+          height: 395px;
+          width: 50%;
+          margin: 10px;
+          background: #eef0f1;
+          position: relative;
+         }
+
+         table, th, td {
+          border: 1px solid black;
+          text-align:center;
+        }
+        th{ color:red;}
+        tr :hover
+        {background-color: yellow;}
+
+
+        /*  CSS responsive  */
+        html {
+          font-size: 100%;
+            }
+
+            @media only screen and (max-width: 768px) 
+            { 
+              #boite{
+              background-color: white;
+                  } 
+          }
+              /* For mobile phones: */
+        
+          
+
+
+            h1 {
+              font-size: 2rem;
+           }     
+
+           img 
+{
+     max-width: 100%;
+     height: auto;
+}
+
